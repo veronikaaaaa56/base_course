@@ -1,7 +1,7 @@
 print("Hello,World")
-print(type("Маша+Петя=Любовь"))
+print('')
 
-print(3+4)
+print('x=3+4')
 
 x=7
 print(x)
