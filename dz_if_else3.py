@@ -1,4 +1,4 @@
-a = 2009
+a = float(input())
 if a % 4 == 0:
     print(f'{a} Високосный год')
 else:
