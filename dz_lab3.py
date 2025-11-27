@@ -26,3 +26,6 @@ x = x_0 + vx_0 * t
 y = y_0 + vy_0 * t - g * t**2/2
 
 coords = np.zeros((len(t), 3))
+coords[:, 0] = t
+coords[:, 1] = x
+
