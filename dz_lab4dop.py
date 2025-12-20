@@ -15,3 +15,15 @@ def draw_ladder(num_steps):
 draw_ladder(5)
 
 plt.savefig('dz_lab4dop.png')
+plt.close
+
+
+def stupenka(N):
+    x = np.arange(0, N+1, 0.5)
+    y = x // 1
+
+    plt.plot(x, y)
+    plt.savefig('stupenka.png')
+    plt.close()
+
+stupenka(5)
