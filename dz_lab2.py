@@ -10,7 +10,7 @@ def hyperbola(x_start, x_end, N):
 
     plt.plot(x, y, label=f'y = {k / x}')
     plt.xlabel('X - ось')
-    plt.tlabel('Y - ось')
+    plt.ylabel('Y - ось')
 
 
 hyperbola(0.1, 10, 100)

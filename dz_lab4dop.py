@@ -7,11 +7,11 @@ def draw_ladder(num_steps):
 
     y_values = np.floor(x_values)
 
-    plt.step(x_values, where = 'post', color = 'red')
+    plt.step(x_values, y_values, where = 'post', color = 'red')
     plt.xlabel('X - ось')
     plt.ylabel('Y - ось (Значение N)')
 
 
 draw_ladder(5)
 
-plt.savefig(dz_lab4dop.png)
+plt.savefig('dz_lab4dop.png')
