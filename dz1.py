@@ -22,4 +22,4 @@ y = R * np.sin(t)**3
 
 plt.figure(figsize=(6, 6))
 plt.plot(x, y, color='red')
-plt.savefig('DZ1,1.png')
+plt.savefig('DZ1,2.png')
